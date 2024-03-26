@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.webpage{
+    background-color: aqua;
+}
+
+.header{
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: blueviolet;
+    height: 100px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+li{
+    margin-right: 125px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+}
+
+a:hover{
+    color: white;
+}
+
+.bg-image{
+    text-align: center;
+    max-width: fit-content;
+}
+
+.header img{
+    padding-right: 150px;
+}
+
+.bg-image img{
+    width: 90%;
+    height: auto;
+    border-radius: 25px;
+}
+
+.luffy{
+    display: flex;
+}
+
+.robin{
+    display: flex;
+}
+
+.zoro{
+    display: flex;
+}
+
+.sanji{
+    display: flex;
+}
+
+.chopper{
+    display: flex;
+}
+
+.brook{
+    display: flex;
+}
+
+.boa{
+    display: flex;
+}
+   
+.character img{
+    margin-bottom: 150px;
+    max-width: 250px;
+    max-height: 250px;
+    width: fit-content;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.character p{
+    margin-bottom: 150px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.robin img {
+    position: absolute;
+    z-index: 0;
+    right: 0;
+
+}
+
+.sanji img {
+    position: absolute;
+    z-index: 0;
+    right: 0;
+}
+
+.brook img {
+    position: absolute;
+    right: 0;
+    z-index: 0;
+}
+
+.robin p{
+    position: relative;
+    left: 470px;
+    top: 50px;
+}
+
+.luffy p{
+    position: relative;
+    left: 150px;
+    top: 50px;
+}
+
+.zoro p{
+    position: relative;
+    left: 150px;
+    top: 100px;
+}
+
+.sanji p{
+    position: relative;
+    left: 470px;
+    top: 100px;
+}
+
+.chopper p{
+    position: relative;
+    left: 150px;
+    top: 50px;
+}
+
+.brook p{
+    position: relative;
+    left: 470px;
+    top: 100px;
+}
+
+.boa p{
+    position: relative;
+    left: 150px;
+    top: 50px;
+}
